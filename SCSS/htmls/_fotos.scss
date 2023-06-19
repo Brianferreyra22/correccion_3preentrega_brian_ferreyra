@@ -1,0 +1,42 @@
+@import"../Utilidades/_mediaqueries";
+
+.images {
+  height: 60vh;
+  margin: 1rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 1.5rem;
+  @include tablet;
+  @include desktop;
+
+
+  div {
+    position: relative;
+    z-index: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .img-2 {
+    grid-column: span 2;
+  }
+
+  .img-2,
+  .img-4,
+  .img-5 {
+    display: none;
+  }
+
+}
+
+
+.contenedor .images{
+    @include tablet;
+    @include desktop;
+
+}

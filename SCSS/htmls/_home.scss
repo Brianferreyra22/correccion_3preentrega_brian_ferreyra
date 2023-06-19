@@ -1,0 +1,18 @@
+@import"../Utilidades/variables";
+
+
+main{
+   h1 {
+  text-align: center;
+  color: $Color-letras;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto; /* Cambio "height: 100%;" a "height: auto;" */
+  object-fit: cover;
+}
+}
+

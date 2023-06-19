@@ -1,0 +1,21 @@
+.videos {
+    image-resolution: 25px;
+    height: auto; /* Cambio "height: 40vh;" a "height: auto;" */
+    margin: 1rem 3rem 2rem 3rem; /* Ajusto el valor del margen inferior según sea necesario */
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: repeat(3, auto); /* Cambio "grid-template-rows: repeat(3, 60%);" a "grid-template-rows: repeat(3, auto);" */
+    row-gap: 1rem;
+
+    h1 {
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    div .spotify,
+    .youtube {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+ }

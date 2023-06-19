@@ -1,0 +1,62 @@
+/*Reset*/
+  @import"./Utilidades/variables";
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  body {
+    background-color: $Color-Principal;
+  }
+  
+  header img {
+    margin: 20px;
+  }
+  
+  .navegacion {
+    text-align: center;
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      color: $Color-letras;
+  
+      li {
+        display: inline-block;
+        
+  
+        a:hover {
+          display: flex;
+          padding: 5px;
+          text-decoration: none;
+          color: $Color-letras;
+          border-radius: 10px;
+          justify-content: space-between;
+          background: #4f4f4f;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+  
+
+@import"../SCSS/htmls/home";
+@import"../SCSS/htmls/contacto";
+@import"../SCSS/htmls/biografia";
+@import"../SCSS/htmls/musica";
+@import"../SCSS/htmls/fotos";
+
+footer {
+  color: $Color-letras;
+  text-align: center;
+  margin-top: 1rem;
+  position: relative;
+  }

@@ -1,0 +1,7 @@
+@import"../Utilidades/mixin/mixin";
+
+.main{
+    @include tablet;
+    @include desktop;
+}
+
